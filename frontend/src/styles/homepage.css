@@ -1,0 +1,30 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content-container {
+    display: flex;
+    flex: 1;
+}
+
+.side-menu-container {
+    flex: 0 0 200px; /* Set a fixed width for the side menu */
+}
+
+.main-content {
+    flex: 1;
+    /* padding: 20px; */
+    background-color: #fff; /* Example background color */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text horizontally */
+    margin: 5%;
+}
+
+.content-wrapper {
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    max-height: 100vh; /* Adjust the maximum height as needed */
+}

@@ -1,0 +1,32 @@
+/* styles.css */
+.table-container {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling if content overflows */
+  }
+  
+  .table {
+    width: 100%; /* Ensure table takes up 100% of its container */
+    border-collapse: collapse; /* Collapse borders */
+  }
+  
+  .row {
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  .row-alt {
+    background-color: #e0e0e0; /* Alternate row background color */
+  }
+  
+  .cell {
+    padding: 8px; /* Add padding to cells */
+    border: 1px solid #ccc; /* Add borders */
+  }
+  
+  .key {
+    color: #333; /* Dark text color for keys */
+  }
+  
+  .value {
+    color: #666; /* Medium text color for values */
+  }
+  
